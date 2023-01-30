@@ -318,5 +318,5 @@ func main() {
 	msg := "hello world"
 	messageSchedule := MessageSchedule(msg)
 	sha256HashVal := Compression(messageSchedule)
-	fmt.Println(strings.ToUpper(sha256HashVal))
+	fmt.Println(sha256HashVal)
 }
